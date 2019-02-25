@@ -1,0 +1,11 @@
+development:
+   # Configure available database sessions. (required)
+   clients:
+      default:
+      # Defines the default session. (required)
+         database: simfin_database
+         # Provides the hosts the default session can connect to. Must be an array
+         # of host:port pairs. (required)
+         hosts:
+            - localhost:27017
+
